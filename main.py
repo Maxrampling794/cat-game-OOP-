@@ -1,4 +1,4 @@
-playing = Trye
+playing = True
 from cat import*
 # instance: a specific occurance of a class
 mimi = cat("mimi","brown")
