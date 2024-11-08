@@ -1,15 +1,26 @@
-
-#our cat entity
-class cat:
-    #constructor: making a cat for the code
-    #to construct a cat, it is required to give it a given_name and a given_colour
-    #given_name and given_colour are attributes
-    def __init__(self, given_name,given_colour):
-        self.name = given_name
-        self.colour = given_colour
-
+playing = Trye
+from cat import*
 # instance: a specific occurance of a class
-# an instance of 
 mimi = cat("mimi","brown")
 print (mimi.name)
 print (mimi.colour)
+
+chilli = cat("chilli","black")
+print (chilli.name)
+print (chilli.colour)
+
+new_cat = input("would you like to add a new cat")
+if new_cat.lower() == "y" or "yes":
+    name_cat = input("what is the cats name?: ")
+    cat_colour = input("what is the colour of this cat?: ")
+    name = name_cat
+    colour = cat_colour
+    my_cat = cat(name, colour)
+    print (my_cat.name)
+    print (my_cat.colour)
+
+
+
+
+
+
